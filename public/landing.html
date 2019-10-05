@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+
+    <title>Asinck</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5 fixed-top">
+        <a class="navbar-brand" href="../index.php"><h2 class="T1" >Asinck<span class="text-success">.</span> </h2></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto text-center">
+            <a class="nav-item nav-link mx-2 active" href="#home">Inicio <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link mx-2" href="#caracteristicas">Caracteristicas</a>
+            <a class="nav-item nav-link mx-2" href="#soporte">Soporte</a>
+            <a class="nav-item nav-link mx-2" href="../views/ingreso.php">Ingresar</a>
+            <a class="nav-item nav-link mx-2 btn btn-success text-white" href="../views/registro.php"> Registarse </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="home text-center container-fluid">
+      <div class="text-center container">
+        <h1 class="display-1 text-white">Control sin presedentes.</h1>
+        <br>
+        <p class="px-5 mx-5 text-white lead">Administra el control de asistencia y llegado crea tus propias reglas, para así tener el control absoluto, puedes tener diferentes grupos para gestionarlos e informar cambios en el horario vía email</p><br>
+        <a href="../views/ingreso.php" class="btn btn-square-dark mx-2">Ingresar</a>
+        <a href="../views/registro.php" class="btn btn-square-white mx-2">Registarse</a>
+      </div>
+    </section>
+    <section>
+      <div class="container"><br><br>
+        <div class="row">
+          <div class="col-sm-12 col-md-6" id="caracteristicas">
+            <h2>Caracteristicas</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolore quis, provident obcaecati nihil reprehenderit ducimus reiciendis eos quos maiores nostrum. Itaque voluptas aliquid vel nobis enim accusamus veritatis a.</p>
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, recusandae!</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, recusandae!</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, recusandae!</li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-6"><img src="img/caracteristicas.jpg" alt="Señora" class="img-fluid"></div>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+        <div class="row justify-content-center" id="soporte">
+          <div class="col-md-8 mt-5 bg-light rounded">
+            <h1 class="text-center font-weight-bold text-success">Contactanos</h1>
+            <hr class="bg-light">
+            <h5 class="text-center text-success"></h5>
+            <form action="" method="post" id="form-box" class="p-2">
+              <div class="form-group input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fas fa-user"></i></span>
+                </div>
+                <input type="text" name="name" class="form-control" placeholder="Ingresa tu nombre" required>
+              </div>
+              <div class="form-group input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                </div>
+                <input type="email" name="email" class="form-control" placeholder="Ingresa tu email" required>
+              </div>
+              <div class="form-group input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fas fa-at"></i></span>
+                </div>
+                <input type="text" name="subject" class="form-control" placeholder="Ingresa el asunto" required>
+              </div>
+              <div class="form-group input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fas fa-comment-alt"></i></span>
+                </div>
+                <textarea name="msg" id="msg" class="form-control" placeholder="Escribe tu mensaje" cols="30" rows="4" required></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" name="submit" id="submit" class="btn btn-success btn-block" value="Enviar">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
